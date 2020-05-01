@@ -1,0 +1,134 @@
+{
+  "hello": "I'm Hs OR Call me Herbert",
+  "description": "Graduated from Simon Fraser University with a MSc in Applied Mathematics. I am currently a full stack engineer at PwC AC Shanghai. As a full stack engineer, I have profound experience in rapid prototyping, practical problems solving, and strong learning capabilities. Be curious and fresh about any software technology that solves problems and accomplishes goals. ",
+  "personalInformation": [
+    {
+      "label": "Full Name",
+      "value": "Herbert HE"
+    },
+    {
+      "label": "Age",
+      "value": "28"
+    },
+    {
+      "label": "Address",
+      "value": "PuDong, Shanghai"
+    },
+    {
+      "label": "E-mail",
+      "value": "bolong.he@pwc.com"
+    },
+    {
+      "label": "WeChat",
+      "value": "arigato_bobo"
+    }
+  ],
+  "language": [
+    {
+      "label": "Chinese (Mandarin)",
+      "score": 10,
+      "value": "native"
+    },
+    {
+      "label": "English",
+      "score": 8,
+      "value": "fluent"
+    }
+  ],
+  "professionalSkills": [
+    {
+      "label": "Python (Pandas, Flask, Celery)",
+      "score": 90
+    },
+    {
+      "label": "JS Frontend (React.js, Vue.js)",
+      "score": 85
+    },
+    {
+      "label": "JS Backend (Koa.js, Nest.js)",
+      "score": 70
+    },
+    {
+      "label": "Golang",
+      "score": 60
+    },
+    {
+      "label": "Docker",
+      "score": 70
+    }
+  ],
+  "additionalSkills": [
+    "GraphQL", "MySQL", "Redis", "MongoDB", "CouchDB/PouchDB", "Neo4j", "Gatsby.js", "Linux", "macOS", "Latex", "Drools", "MatLab", "TensorFlow", "and more..."
+  ],
+  "styledList": [
+    "Powerful Learning Ability",
+    "Effective Time Management Skill",
+    "Self Motivated",
+    "Abundant Problem-solving Experience"
+  ],
+  "workExperience": [
+    {
+      "start": "Feb 2020",
+      "end": "new",
+      "company": "PwC Shanghai Acceleration Center",
+      "city": "Shanghai",
+      "title": "Senior Technology Lead",
+      "highlight": "",
+      "responsibility": [
+        "Developed the internal COVID-19 check-in application front-end based on Vue.js.",
+        "Designed and developed Status Connect System for PwC US Advisory with MongoDB，React.js，Vue.js，Koa.js"
+      ]
+    },
+    {
+      "start": "Feb 2018",
+      "end": "Feb 2020",
+      "company": "3D Medicines (Shanghai) Co., Ltd",
+      "city": "Shanghai",
+      "title": "Data Engineer",
+      "highlight": "Star Employee of the Year 2018 (Challenge the Impossible Award)",
+      "responsibility": [
+        "Designed and implemented an in-house distributed bioinformatics analysis framework",
+        "Designed and implemented a rule engine for generating genetic mutation explanation content",
+        "Designed and implemented a clinical knowledge database as well as a treatment recommendation system based on the knowledge database"
+      ]
+    },
+    {
+      "start": "Sep 2015",
+      "end": "Dec 2017",
+      "company": "Simon Fraser University",
+      "city": "Surrey, Canada",
+      "title": "Teaching Assistant",
+      "highlight": "",
+      "responsibility": [
+        "Leading calculus and basic math workshop",
+        "Leading differential equation tutorial"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "start": "Sep 2015",
+      "end": "Dec 2017",
+      "company": "Simon Fraser University",
+      "city": "Vancouver",
+      "title": "Master in Applied Mathematics (Operation Research)",
+      "highlight": "SFU Graduate Fellowship 2016",
+      "responsibility": [
+        "Master Project: Analysis of Firefighter Absences and Hiring Schedule Optimization at the Surrey FireDepartment",
+        "Coursework: continuous/discrete optimization, network flows, linear programming, numerical methods incontinuous optimization, analytic number theory."
+      ]
+    },
+    {
+      "start": "Sep 2010",
+      "end": "Apr 2015",
+      "company": "York University",
+      "city": "Toronto",
+      "title": "Bachelor in Applied Mathematics",
+      "highlight": "Dean’s Honour Roll 2013 & 2014",
+      "responsibility": [
+        "Coursework: combinatorics, cryptography, simulation and Monte Carlo methods, financial mathematics."
+      ]
+    }
+  ]
+
+}

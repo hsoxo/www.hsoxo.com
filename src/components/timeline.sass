@@ -1,0 +1,96 @@
+@mixin rotate($deg:90deg)
+  transform: rotate($deg)
+  -ms-transform: rotate($deg) /* IE 9 */
+  -webkit-transform: rotate($deg) /* Safari and Chrome */
+
+.hs-timeline
+  margin: 20px
+
+  \:global
+    .ant-timeline-item-tail
+      height: 100%
+    .ant-timeline-item-head
+      border-color: #c0e3e7
+
+  .arrow-left
+    width: calc(80% - 12px)
+    text-align: center !important
+    background-color: #c0e3e7
+    margin: 10px 0 10px 10px
+    padding: 3px 6px
+    font-size: .875em
+    z-index: 2
+
+  .arrow-left:after
+    content: ''
+    background-color: #c0e3e7
+    display: inline-block
+    width: 19px
+    height: 19px
+    top: 3px
+    position: absolute
+    left: 0
+    border: 0 solid hsl(0, 0%, 13%)
+    border-radius: 2px
+    z-index: 0
+    @include rotate(45deg)
+
+  .hs-timeline-title
+    font-size: 20px
+    color: black
+
+  .hs-timeline-content
+    padding: 20px 0
+
+@media screen and (min-width: 768px)
+  .hs-timeline
+    margin: 20px
+
+    \:global
+      .ant-timeline-item-left
+        .ant-timeline-item-label
+          width: calc(30% - 12px) !important
+          text-align: center !important
+          background-color: #c0e3e7
+          margin-right: 22px
+          padding: 7px 6px
+          font-size: .875em
+          z-index: 2
+
+        .ant-timeline-item-label:after
+          content: ''
+          background-color: #c0e3e7
+          width: 23px
+          display: inline-block
+          height: 24px
+          top: 5px
+          position: absolute
+          left: calc(100% - 12px)
+          border: 0 solid hsl(0, 0%, 13%)
+          border-radius: 2px
+          z-index: 0
+          @include rotate(45deg)
+
+        .ant-timeline-item-head
+          top: 5px
+          left: calc(35% - 12px) !important
+          border-color: #c0e3e7
+
+        .ant-timeline-item-tail
+          top: 15px
+          left: calc(35% - 12px) !important
+
+        .ant-timeline-item-content
+          top: -2px
+          left: calc(35% - 12px) !important
+          width: calc(70% - 20px) !important
+
+    .hs-timeline-title
+      font-size: 20px
+      color: black
+
+    .hs-timeline-content
+      padding: 20px 0
+
+
+

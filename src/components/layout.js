@@ -7,39 +7,23 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
       <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
+        className={'main-wrapper'}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
+      <svg style={{}} className="bg-shape" height="519" width="758">
+        <polygon style={{fill: "#d3d3d3"}} points="0,455,693,352,173,0,92,0,0,71" />
+      </svg>
+      <svg style={{right: -100, top: -100}} className="bg-shape" height="536" width="633">
+        <polygon style={{fill: "#b4dfe3"}} points="0,0,633,0,633,536" />
+      </svg>
     </>
   )
 }
@@ -49,3 +33,8 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+
+
+
+
