@@ -28,11 +28,12 @@ jobs:
     - run: npm run build --if-present
     - uses: actions/checkout@master
     - name: copy file via ssh password
-      uses: appleboy/scp-action@master
+      uses: garygrossgarten/github-action-scp@release
       with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
-        source: "public/**"
-        target: "/home/www.hsoxo.com/public"
+        host: ${{ secrets.ALIYUN_HOST }}
+        username: ${{ secrets.ALIYUN_USER }}
+        password: ${{ secrets.ALIYUN_PASS }}
+        port: ${{ secrets.ALIYUN_PORT }}
+        local: "public"
+        remote: "/home/www.hsoxo.com"
+        concurrency: 10 
