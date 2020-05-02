@@ -10,3 +10,9 @@ steps:
       - npm install gatsby-cli -g
       - npm install
       - npm run build
+
+trigger:
+  event:
+    - promote
+  target:
+    - production
