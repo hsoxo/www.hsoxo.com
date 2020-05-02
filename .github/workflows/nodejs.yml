@@ -28,6 +28,14 @@ jobs:
     - run: npm run build --if-present
     - run: pwd
     - run: ls -l
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.ALIYUN_HOST }}
+        username: ${{ secrets.ALIYUN_USER }}
+        password: ${{ secrets.ALIYUN_PASS }}
+        port: ${{ secrets.ALIYUN_PORT }}
+        script: rm -rf /home/www.hsoxo.com/public/*
     - name: copy file via ssh password
       uses: garygrossgarten/github-action-scp@release
       with:
@@ -35,5 +43,5 @@ jobs:
         username: ${{ secrets.ALIYUN_USER }}
         password: ${{ secrets.ALIYUN_PASS }}
         port: ${{ secrets.ALIYUN_PORT }}
-        local: "./public/**"
+        local: "./public"
         remote: "/home/www.hsoxo.com/public/"
