@@ -35,6 +35,5 @@ jobs:
         username: ${{ secrets.ALIYUN_USER }}
         password: ${{ secrets.ALIYUN_PASS }}
         port: ${{ secrets.ALIYUN_PORT }}
-        local: "public"
-        remote: "/home/www.hsoxo.com"
-        concurrency: 10 
+        local: "./public/**"
+        remote: "/home/www.hsoxo.com/public/"
