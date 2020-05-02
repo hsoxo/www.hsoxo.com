@@ -1,0 +1,12 @@
+
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: greeting
+    image: node:12
+    commands:
+      - npm install gatsby-cli -g
+      - npm install
+      - npm run build
