@@ -18,8 +18,8 @@ const b = require("../assets/data/personalInfoEn.json")
 
 const IndexPage = () => {
   const [state, setState] = React.useState({
-    info: a,
-    language: 'zh',
+    info: b,
+    language: 'en',
   })
 
   const toggleLanguage = function() {
@@ -46,9 +46,8 @@ const IndexPage = () => {
           <div className="hs-cv-header">
             <Switch
               className="lang-switch"
-              checkedChildren="中文"
-              unCheckedChildren="English"
-              defaultChecked
+              checkedChildren="English"
+              unCheckedChildren="中文"
               onChange={() => toggleLanguage()}
             />
           </div>
@@ -70,8 +69,8 @@ const IndexPage = () => {
               {/*    Reference*/}
               {/*  </h3>*/}
               {/*</Card>*/}
-              <div style={{height: 20}} />
-              <BlogCard/>
+              {/*<div style={{height: 20}} />*/}
+              {/*<BlogCard/>*/}
               <div style={{height: 20}} />
               <Contact/>
               <div style={{height: 20}} />

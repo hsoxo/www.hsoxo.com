@@ -12,11 +12,11 @@
     },
     {
       "label": "现居住地",
-      "value": "上海・浦东"
+      "value": "温哥华"
     },
     {
       "label": "E-mail",
-      "value": "bolong.he@pwc.com"
+      "value": "hbl2012@gmail.com"
     },
     {
       "label": "WeChat",
@@ -37,20 +37,20 @@
   ],
   "professionalSkills": [
     {
-      "label": "Python (Pandas, Flask, Celery)",
+      "label": "Python (Pandas, Flask, Celery, etc.)",
       "score": 90
     },
     {
-      "label": "JS Frontend (React.js, Vue.js)",
+      "label": "SPA Framework (React.js, Vue.js)",
       "score": 85
     },
     {
-      "label": "JS Backend (Koa.js, Nest.js)",
+      "label": "NodeJS (Koa.js, Nest.js)",
       "score": 70
     },
     {
       "label": "Golang",
-      "score": 60
+      "score": 50
     },
     {
       "label": "Docker",
@@ -58,7 +58,7 @@
     }
   ],
   "additionalSkills": [
-    "GraphQL", "MySQL", "Redis", "MongoDB", "CouchDB/PouchDB", "Neo4j", "Gatsby.js", "Linux", "macOS", "Latex", "Drools", "MatLab", "TensorFlow", "and more..."
+    "Gatsby.js", "GraphQL", "MySQL", "Redis", "MongoDB", "CouchDB/PouchDB", "Neo4j", "RabbitMQ", "Linux", "macOS", "Latex", "Drools", "MatLab", "TensorFlow", "and more..."
   ],
   "styledList": [
     "强大的学习能力",

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "hsoxo.com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Hs Personal Website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Bolong He <hbl2012@gmail.com>",
   "dependencies": {
     "@ant-design/icons": "^4.0.2",
     "@svgr/webpack": "^5.2.0",
